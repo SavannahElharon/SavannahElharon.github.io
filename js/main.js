@@ -54,7 +54,7 @@ projects.addEventListener('click', () => {
     top: 500,
     right: 50,
     bottom: 50,
-    left: 1250,
+    left: 1245,
     mount: projectsContent,
     onfocus: function () {
       this.setBackground('#00aa00')
