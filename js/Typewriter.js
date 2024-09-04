@@ -1,11 +1,11 @@
 var aText = new Array(
-    "hi, i'm ron", // add your text
-    "a web developer", // add your text
-    "based in riga, latvia", // add your text
-    "i drink lot of tea", // add your text
-    "and build beautiful websites" // add your text
+    "hi, i'm savannah!", // add your text
+    "an aspiring software engineer", // add your text
+    "currently a software engineering major at drexel university", // add your text
+    "⋆｡‧˚ʚ ❀ ɞ˚‧｡⋆", // add your text
+    "find me below at" // add your text
     );
-    var iSpeed = 100; 
+    var iSpeed = 300; 
     var iIndex = 0; 
     var iArrLength = aText[0].length; 
     var iScrollAt = 20; 

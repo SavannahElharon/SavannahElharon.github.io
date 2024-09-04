@@ -1,11 +1,13 @@
 const about = document.querySelector('#about')
 const contact = document.querySelector('#contact')
+const projects = document.querySelector('#projects')
 const aboutContent = document.querySelector('#about-content')
 const contactContent = document.querySelector('#contact-content')
+const projectsContent = document.querySelector('#projects-content')
 
 about.addEventListener('click', () => {
   const aboutBox = new WinBox({
-    title: 'About Me',
+    title: 'about me',
     //modal: true,
     width: '400px',
     height: '400px',
@@ -25,7 +27,7 @@ about.addEventListener('click', () => {
 
 contact.addEventListener('click', () => {
   const contactBox = new WinBox({
-    title: 'Contact Me',
+    title: 'contact me',
     background: '#00aa00',
     width: '400px',
     height: '400px',
@@ -43,6 +45,25 @@ contact.addEventListener('click', () => {
   })
 })
 
+projects.addEventListener('click', () => {
+  const projectBox = new WinBox({
+    title: 'my projects',
+    background: '#00aa00',
+    width: '600px',
+    height: '400px',
+    top: 500,
+    right: 50,
+    bottom: 50,
+    left: 1250,
+    mount: projectsContent,
+    onfocus: function () {
+      this.setBackground('#00aa00')
+    },
+    onblur: function () {
+      this.setBackground('#777')
+    },
+  })
+})
 
 // Typewriter.js
 // https://github.com/ronv/Typewriter.js
