@@ -1,0 +1,50 @@
+h1 {
+    font-family: 'VALORANT', sans-serif;
+    font-size: 80px;
+    color: #ff4654;
+    text-align: center;
+    margin-bottom: 50px;
+}
+body {
+    font-family: 'VALORANT', sans-serif;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111823;
+    color: #ff4654;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #bd3944;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #53212B;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
